@@ -1,3 +1,7 @@
+//import { without } from 'lodash'; this is not supported as much at the moment browsify was used. Kind of a lesson before webpack 
+var _ = require('lodash');
+console.log(_);
+
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
