@@ -1,6 +1,11 @@
 //import { without } from 'lodash'; this is not supported as much at the moment browsify was used. Kind of a lesson before webpack 
 var _ = require('lodash');
-console.log(_);
+
+/* just for fun with lodash */
+var array = [1,2,3,4,5,6,7,8];
+console.log('answer:', _.without(array, 3));
+/* end of fun with lodash */
+
 
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
