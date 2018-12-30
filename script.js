@@ -1,3 +1,4 @@
+/* REMEMBER: npm install will add package.json file and if any file is deleted as long as you have the package.json file just use npm install and it will add the correct files! */
 //import { without } from 'lodash'; this is not supported as much at the moment browsify was used. Kind of a lesson before webpack 
 var _ = require('lodash');
 
