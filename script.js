@@ -1,5 +1,5 @@
 /* REMEMBER: npm install will add package.json file and if any file is deleted as long as you have the package.json file just use npm install and it will add the correct files! */
-/* In your package.json file in the script you can change "test" to "build" then add browserifyfy script.js > bundle.js then use the command "npm run build" NPM lessons */
+/* In your package.json file in the script you can change "test" to "build" then add browserifyfy script.js > bundle.js && live-server then use the command "npm run build" NPM lessons */
 //import { without } from 'lodash'; this is not supported as much at the moment browsify was used. Kind of a lesson before webpack 
 var _ = require('lodash');
 
